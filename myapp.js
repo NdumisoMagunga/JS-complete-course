@@ -28,3 +28,25 @@ return instructions;
 }
 
 console.log(makeCoffee(3, 20));
+
+// Arrays & Objects
+
+// Arrays are list objects
+
+
+// Objects { properties }  arrays [ elements ]
+
+var car = {
+    color : 'Red',
+    speed: 200,
+    drive : function(){ return "drive"; },
+};
+
+
+var shoppingList = [
+    'apple',
+    'orange',
+    'pear',
+    'door'
+];
+
