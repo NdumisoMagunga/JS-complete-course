@@ -1,15 +1,4 @@
-console.log('hello world');
 
-console.log(200);
-
-console.log(true);
-console.log(null);
-
-var num = 10;
-
-console.log(num);
-
-console.log("string", 10, num, true, null, 10.33);
 
 //functions or subroutines
 
@@ -38,10 +27,16 @@ console.log(makeCoffee(3, 20));
 
 var car = {
     color : 'Red',
+    make :'volvo',
     speed: 200,
     drive : function(){ return "drive"; },
+    engine : {
+        size: 2.0,
+        make: 'bmw',
+        fuel: 'petrol',
+        pistons : [ { maker:'bmw' }, { maker: 'bmw2' } ]
+    }
 };
-
 
 var shoppingList = [
     'apple',
@@ -50,3 +45,18 @@ var shoppingList = [
     'door'
 ];
 
+var array = [
+    'string',
+    100,
+    ['embed', 200],
+    {car : 'ford'},
+    function(){ return "drive"; },
+]
+
+
+//access members
+
+console.log(car.make);
+console.log(car.engine);
+
+console.log(car.engine.make);
