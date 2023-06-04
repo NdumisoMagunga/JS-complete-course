@@ -29,3 +29,11 @@ var str = "Focus" + "force";
 //Polymorphism
 //An organism or Inorganic objecct or material which 
 //takes Various forms
+
+//it changes and addapt
+
+'fircys' + 10 ;  //fircys10
+
+number = 30;
+
+number += 'focus';
